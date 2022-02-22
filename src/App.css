@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+* {
+  color: white;
+}
+
+.planetImg {
+  transition: 1s;
+}
+
+.planetImg:hover {
+  transition: 1s;
+  width: 150px;
+}
+
+body {
+  background-image: url('./images/background.png');
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.system {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.system h2 {
+  align-self: center;
+  margin: 40px;
+}
+
+.system img {
+  width: 100px;
+}
+
+.container-planet {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.missions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.missions {
+  border: 2px solid gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 25px;
+  text-align: center;
+  width: 150px;
+}
